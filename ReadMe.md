@@ -4,7 +4,7 @@ Simple Vanilla JS Calculator.
 
 ## USE
 
-This is available for use in GitHub Pages
+This is available for use in [GitHub Pages](https://odunet.github.io/Entry_ccHUB/)
 
 ## LICENSE
 

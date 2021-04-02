@@ -73,25 +73,21 @@ window.addEventListener("click", (e) =>{
                 case 'X': 
                     var finalResult = firstNumber * secondNumber;
                     resultPan.innerHTML = finalResult; 
-                    console.log(finalResult);
                     break;
              
                 case '/': 
                     var finalResult = firstNumber / secondNumber;
                     resultPan.innerHTML = finalResult; 
-                    console.log(finalResult);
                     break;
              
                 case '-': 
                     var finalResult = firstNumber - secondNumber;
                     resultPan.innerHTML = finalResult; 
-                    console.log(finalResult);
                     break;
              
                 case '+': 
                     var finalResult = firstNumber + secondNumber;
                     resultPan.innerHTML = finalResult; 
-                    console.log(finalResult);
                     break;
              
                 default:  alert("Check your expression")
