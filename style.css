@@ -1,0 +1,75 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+:root {
+    --backgrounColor: rgb(97, 106, 235);
+    --textFont: 'Roboto', sans-serif;
+}
+
+body {
+    position: relative;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background: var(--backgrounColor);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 2rem;;
+}
+
+#resultSection {
+    width: 550px;
+    height: 5rem;
+    margin: auto;
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#resultPan {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    height: 3rem;
+    text-align: right;
+    font-family: var(--textFont);
+    font-weight: bold;
+    font-size: 3rem;
+    color: red;
+}
+
+#calculatorButtons {
+    width: 50%;
+    margin: auto;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    column-gap: 10px;
+    row-gap: 15px;
+}
+
+.calculatorButtonN,
+.calculatorButtonS,
+.calculatorButtonE,
+.calculatorButtonSN,
+.calculatorButtonC
+ {
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    background: rgb(221, 214, 214);
+    font-family: var(--textFont);
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+}
